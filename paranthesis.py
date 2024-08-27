@@ -24,8 +24,6 @@ def areBracketsBalanced(expr):
             if current_char == '[':
                 if char != "]":
                     return False
-
-    # Check Empty Stack
     if stack:
         return False
     return True
